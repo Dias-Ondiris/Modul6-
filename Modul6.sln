@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul6", "Modul6.csproj", "{C2AEB1C8-5CE2-4102-AF54-F42DCDB15ED4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bankomat", "Bankomat\Bankomat.csproj", "{11B977F1-B78A-4C75-A657-CFD4C4A7F34C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2AEB1C8-5CE2-4102-AF54-F42DCDB15ED4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2AEB1C8-5CE2-4102-AF54-F42DCDB15ED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2AEB1C8-5CE2-4102-AF54-F42DCDB15ED4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2AEB1C8-5CE2-4102-AF54-F42DCDB15ED4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11B977F1-B78A-4C75-A657-CFD4C4A7F34C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11B977F1-B78A-4C75-A657-CFD4C4A7F34C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11B977F1-B78A-4C75-A657-CFD4C4A7F34C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11B977F1-B78A-4C75-A657-CFD4C4A7F34C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3DFFA56-FC11-47C1-A682-E3FD40B4BF82}
+	EndGlobalSection
+EndGlobal
