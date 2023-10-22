@@ -10,7 +10,7 @@ namespace Modul6
     {
         static void Menu()
         {
-            Account userAccount = new Account { Balance = 0 }; 
+            
 
             while (true)
             {
@@ -66,15 +66,15 @@ namespace Modul6
             Person person = new Person("Dias", "Ondiris", new DateTime(2002, 10, 14), "male", "Toregulova 70", "Dificonfig@gmail.com", "87781076714");
             string personinfo = PersonInfo.GetPersonInfo(person);
             Console.WriteLine(personinfo);
-            string correctPassword = "1234"; // предположим, что это правильный пароль
+            Account userAccount = new Account { Balance = 0 };
+            Client client = new Client { Email = person.Email, Password = "werf$54", IIn = "123456789456", Id = 1 };
             int attempts = 3;
-
             while (attempts > 0)
             {
                 Console.WriteLine("Введите пароль кредитной карточки:");
                 string inputPassword = Console.ReadLine();
 
-                if (inputPassword == correctPassword)
+                if (client.CorrectPassword(inputPassword) )
                 {
                     Menu();
                     break;

@@ -40,6 +40,13 @@ namespace Bankomat
         }
         public string Email { get; set; }
         public string Password { get; set; }
+        public bool CorrectPassword(string pass) { 
+                if (pass== this.Password)
+                {
+                    return true;
+                }
+                return false;
+             }
         public string PhoneNumber { get; set; }
         public string IIn { get; set; }
 
