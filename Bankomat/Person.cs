@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bankomat.Person
+namespace Bankomat
 {
     public class Person
     {
